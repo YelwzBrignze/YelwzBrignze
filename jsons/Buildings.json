@@ -1,0 +1,14 @@
+[
+    {
+		"name": "Treasury Vassals of Wealth",
+    "cost": 0,
+    "gold": 100,
+		"culture": 100,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 100},
+        "uniques": ["[+100]% [Gold] [in all cities]", "[+100]% [Gold] [in capital]",
+            "[+100 Gold] from [All] tiles [in all cities]"],
+		"requiredTech": "Agriculture",
+		"quote": "'Ah money! May currency be used well.'"
+    }
+]
