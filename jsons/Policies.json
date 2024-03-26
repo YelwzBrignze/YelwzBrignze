@@ -403,8 +403,8 @@
             {
                 "name": "Merchant Confederacy",
                 "uniques": [
-                    "[+2 Production, +2 Food] from every [Land Trade Route (Gold)]",
-                    "[+2 Production, +2 Food] from every [Sea Trade Route (Gold)]"
+                    "[+2 Production, +2 Food] from [Land] tiles [in all cities]",
+                    "[+2 Production, +2 Food] from [Coast] tiles [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
