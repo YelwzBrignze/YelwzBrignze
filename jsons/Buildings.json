@@ -176,12 +176,11 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"cost": 40,
 		"requiredTech": "Calendar",
 		"hurryCostModifier": 40,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Provides [1] [Porcelain]","Provides [1] [Jewelry]","Unbuildable",
+			"Provides [1] [Porcelain]","Provides [1] [Jewelry]",
 			"Doubles Gold given to enemy if city is captured","Unsellable",
 			"Hidden when religion is disabled","Destroyed when the city is captured"
 		]
@@ -192,10 +191,9 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"cost": 40,
 		"hurryCostModifier": 40,
 		"requiredTech": "Drama and Poetry",
-		"uniques": ["Unsellable","Unbuildable","Hidden when religion is disabled"]
+		"uniques": ["Unsellable","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Pagoda",
@@ -203,10 +201,9 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"cost": 40,
 		"hurryCostModifier": 40,
 		"requiredTech": "Writing",
-		"uniques": ["Unsellable","Unbuildable","Hidden when religion is disabled"]
+		"uniques": ["Unsellable","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Cathedral",
@@ -216,8 +213,89 @@
 		"happiness": 1,
 		"requiredTech": "Philosophy",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unsellable","Unbuildable","Hidden when religion is disabled"]
+		"uniques": ["Unsellable","Hidden when religion is disabled"]
 	},
+	{
+        "name": "Gurdwara",
+	"cost": 0,
+        "culture": 1,
+        "faith": 4,
+        "science": 4,
+        "happiness": 1,
+		"requiredTech": "Philosophy",
+        "uniques": [
+            "Unsellable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Synagogue",
+	"cost": 0,
+        "culture": 1,
+        "faith": 2,
+        "production": 1,
+	    "requiredTech": "Philosophy",
+        "uniques": [
+            "Unsellable",
+            "[+15]% Production when constructing [All] buildings [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Vihara",
+	    "cost": 0,
+        "faith": 1,
+        "happiness": 1,
+	    "requiredTech": "Philosophy",
+        "uniques": [
+            "Unsellable",
+            "[+15]% [Gold] [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Mandir",
+	    "cost": 0,
+	    "food": 1,
+	    "requiredTech": "Philosophy",
+        "uniques": [
+            "Unsellable",
+            "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+	{
+        "name": "Stupa",
+	    "cost": 0,
+		"gold": 1,
+	    "requiredTech": "Philosophy",
+        "uniques": [
+            "Unsellable",
+            "[+1 Food, +1 Gold] from [Bonus resource] tiles [in this city]",
+		"[+1 Science, +1 Production] from [Strategic resource] tiles [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+	{
+        "name": "Ziggurat",
+        "requiredBuilding": "Temple",
+        "faith": 2,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"science": 10},
+        "requiredTech": "Philosophy"
+    },
+	{
+        "name": "Candi",
+        "requiredBuilding": "Garden",
+        "cost": 90,
+        "faith": 6,
+        "uniques": ["[+20]% Great Person generation [in this city]"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry"
+    },
+	
 	//Special
 	{
 		"name": "The Annex",
@@ -238,7 +316,6 @@
 	},
 	{
 		"name": "Stronghold",
-    "uniqueTo": "Colziand",
 		"cost": 100,
     "replaces": "Barracks",
 		"hurryCostModifier": 35,
